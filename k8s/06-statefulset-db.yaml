@@ -25,7 +25,7 @@ spec:
         seccompProfile: {type: RuntimeDefault}
       containers:
         - name: mysql
-          image: shaikmustafa/king:db   # <-- change to your image
+          image: vicky1625/webapp_k8s:db   # <-- change to your image
           args:
             - --character-set-server=utf8
             - --collation-server=utf8_general_ci
